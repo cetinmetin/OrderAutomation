@@ -1,0 +1,32 @@
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\bin\Debug\OrderAutomation.exe.config
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\bin\Debug\OrderAutomation.exe
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\bin\Debug\OrderAutomation.pdb
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.csprojResolveAssemblyReference.cache
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.Form1.resources
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.Properties.Resources.resources
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.csproj.GenerateResource.Cache
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.exe
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.pdb
+c:\users\fracture\documents\visual studio 2012\Projects\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.MainForm.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\bin\Debug\OrderAutomation.exe.config
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.exe
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.pdb
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\bin\Debug\OrderAutomation.exe
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\bin\Debug\OrderAutomation.pdb
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.Form1.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.MainForm.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.Properties.Resources.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.csproj.GenerateResource.Cache
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.RegisterForm.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.UserOperation.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.AddressAdd.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.ItemShop.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.ItemDetail.resources
+C:\Users\Fracture\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.BuyItem.resources
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.csprojAssemblyReference.cache
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.OrderHistory.resources
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.ItemAdd.resources
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.ItemRemove.resources
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.ItemUpdate.resources
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.SelectedItemUpdate.resources
+C:\Users\FRACTURE\Desktop\OrderAutomation\OrderAutomation\obj\Debug\OrderAutomation.CustomerFollow.resources

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02C25155-A6BA-461A-A0DC-BD5A127DD8F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrderAutomation</RootNamespace>
+    <AssemblyName>OrderAutomation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddressAdd.Designer.cs">
+      <DependentUpon>AddressAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyItem.Designer.cs">
+      <DependentUpon>BuyItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cash.cs" />
+    <Compile Include="Check.cs" />
+    <Compile Include="Credit.cs" />
+    <Compile Include="CustomerFollow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFollow.Designer.cs">
+      <DependentUpon>CustomerFollow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemAdd.Designer.cs">
+      <DependentUpon>ItemAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemDetail.Designer.cs">
+      <DependentUpon>ItemDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemRemove.Designer.cs">
+      <DependentUpon>ItemRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemShop.Designer.cs">
+      <DependentUpon>ItemShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemUpdate.Designer.cs">
+      <DependentUpon>ItemUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderAutomationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderAutomationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetail.cs" />
+    <Compile Include="OrderHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderHistory.Designer.cs">
+      <DependentUpon>OrderHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedItemUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectedItemUpdate.Designer.cs">
+      <DependentUpon>SelectedItemUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="UserOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserOperation.Designer.cs">
+      <DependentUpon>UserOperation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddressAdd.resx">
+      <DependentUpon>AddressAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyItem.resx">
+      <DependentUpon>BuyItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFollow.resx">
+      <DependentUpon>CustomerFollow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemAdd.resx">
+      <DependentUpon>ItemAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemDetail.resx">
+      <DependentUpon>ItemDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemRemove.resx">
+      <DependentUpon>ItemRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemShop.resx">
+      <DependentUpon>ItemShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemUpdate.resx">
+      <DependentUpon>ItemUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderHistory.resx">
+      <DependentUpon>OrderHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectedItemUpdate.resx">
+      <DependentUpon>SelectedItemUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserOperation.resx">
+      <DependentUpon>UserOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OrderAutomationDataSet.xsc">
+      <DependentUpon>OrderAutomationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrderAutomationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderAutomationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrderAutomationDataSet.xss">
+      <DependentUpon>OrderAutomationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
